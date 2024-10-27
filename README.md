@@ -179,3 +179,14 @@
 
 - **Editable Mode for Development**: `pip install -e /path/to/project_directory`
 - **Direct Install from Built File**: `pip install /path/to/file.whl` or `pip install /path/to/file.tar.gz`
+
+## `uv` cookbook
+
+### install / update
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# or update with
+uv self update
+```
